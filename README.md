@@ -11,7 +11,7 @@ This was made with Android development in mind because I didn't like writing sta
 
 First you must call holster with all your modules before you can inject anything.
 
-```
+```java
 public class WearableManagerApplication extends Application {
     public void onCreate() {
         super.onCreate();
@@ -21,9 +21,10 @@ public class WearableManagerApplication extends Application {
     }
 }
 ```
+
 After holster is called you can now inject your objects
 
-```
+```java
 public class MyActivity extends Activity {
     public void onCreate() {
         super.onCreate();
@@ -39,7 +40,7 @@ Including Sheath in your project gives you Dagger so don't worry about including
 
 Maven
 
-```
+```xml
 <dependency>
 	<groupId>io.pristine.sheath</groupId>
 	<artifactId>sheath</artifactId>
@@ -49,6 +50,6 @@ Maven
 
 Gradle
 
-```
+```groovy
 compile 'io.pristine.sheath:sheath:{latest-version}'
 ```
