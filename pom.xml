@@ -9,7 +9,7 @@
 
     <groupId>io.pristine.sheath</groupId>
     <artifactId>sheath</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Sheath</name>
     <description>A small wrapper of Dagger to facilitate interaction with the object graph</description>
