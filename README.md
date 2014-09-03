@@ -12,7 +12,7 @@ This was made with Android development in mind because I didn't like writing sta
 First you must call holster with all your modules before you can inject anything.
 
 ```java
-public class WearableManagerApplication extends Application {
+public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
